@@ -22,8 +22,9 @@
     },
     "scripts": {
         "phpunit": "phpunit --colors tests",
+        "phpcs": "phpcs --standard=PSR2 -n src",
         "comandos": "date",
-        "tests": ["@comandos","@phpunit"]
+        "tests": ["@comandos","@phpunit","@phpcs"]
     },
     "autoload": {
         "psr-4": {
