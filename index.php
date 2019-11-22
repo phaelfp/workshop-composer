@@ -1,4 +1,8 @@
 <?php
+
+use AulaComposer\Soma;
+use AulaComposer\Graficos\Donnut;
+
 require 'vendor/autoload.php';
 
 if (file_exists('.env')) {
@@ -6,4 +10,5 @@ if (file_exists('.env')) {
     $dotenv->load();
 }
 
-print_r($_ENV);
+$soma = new Soma();
+$donnut = new Donnut();
