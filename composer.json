@@ -1,5 +1,5 @@
 {
-    "name": "phaelrj/workshop-composer",
+    "name": "rfpereira/workshop-composer",
     "description": "Workshop que ensina a utilizacao do composer no php",
     "keywords": ["composer","php","docker"],
     "license": "MIT",
