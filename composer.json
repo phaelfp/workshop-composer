@@ -9,6 +9,8 @@
             "email": "phael.rj@gmail.com"
         }
     ],
+    "minimum-stability":"dev",
+    "prefer-stable":"true",
     "support": {
         "source": "https://github.com/phaelfp/workshop-composer",
         "issues": "https://github.com/phaelfp/workshop-composer/issues"
